@@ -1,0 +1,44 @@
+name: "🐛 버그"
+description: 의도대로 동작하지 않는 문제
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: symptom
+    attributes:
+      label: 🐛 어떤 문제인가요?
+      description: 무엇이 어떻게 잘못되는지 설명해 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: 🔁 재현 절차
+      description: 문제를 재현하는 단계를 순서대로 적어주세요.
+      value: |
+        1. 
+        2. 
+        3. 
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 💚 기대한 동작
+      description: 원래 어떻게 동작해야 하는지 적어주세요.
+    validations:
+      required: true
+  - type: dropdown
+    id: env
+    attributes:
+      label: 📂 환경
+      options:
+        - 로컬
+        - 개발 서버
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: 🙋 로그 / 스크린샷
+      description: 오류 로그나 화면 캡처가 있다면 남겨주세요.

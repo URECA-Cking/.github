@@ -1,0 +1,26 @@
+name: "🛠 작업"
+description: 기능·버그가 아닌 작업 (설정, 인프라, 문서, 리팩터링 등)
+title: "[TASK] "
+labels: ["task"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: 🛠 어떤 작업인가요?
+      description: 무엇을 하는지 자유롭게 적어주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: ✅ 할 일
+      description: 필요할 때만 적으면 됩니다.
+      value: |
+        - [ ] 
+        - [ ] 
+        - [ ] 
+  - type: textarea
+    id: ref
+    attributes:
+      label: 🙋 참고 자료
+      description: 참고할 문서·링크가 있다면 적어주세요.

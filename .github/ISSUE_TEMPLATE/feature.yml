@@ -1,0 +1,29 @@
+name: "✨ 기능"
+description: 새로 만들 기능
+title: "[FEAT] "
+labels: ["feature"]
+body:
+  - type: textarea
+    id: todo
+    attributes:
+      label: 💚 어떤 기능인가요?
+      description: 무엇을 만드는지 설명해 주세요.
+      placeholder: 자세히 적을수록 좋습니다.
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: ✅ 완료 조건
+      description: 무엇이 되면 이 이슈를 닫을 수 있는지 체크박스로 적어주세요.
+      value: |
+        - [ ] 
+        - [ ] 
+        - [ ] 
+    validations:
+      required: true
+  - type: textarea
+    id: ref
+    attributes:
+      label: 🙋 참고 자료
+      description: 관련 이슈·화면·API 명세가 있다면 적어주세요.
