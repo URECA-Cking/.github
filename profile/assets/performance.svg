@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-label="크킹 응모 부하 테스트 결과: 동시 사용자 50명, TPS 578, p95 23ms, 오류율 0.0퍼센트">
+  <rect width="1200" height="310" rx="26" fill="#fff7fa"/>
+  <text x="42" y="53" fill="#6c3a50" font-size="22" font-weight="700" font-family="Arial, sans-serif">동시 응모 · 부하 검증</text>
+  <text x="1154" y="53" text-anchor="end" fill="#865e70" font-size="17" font-family="Arial, sans-serif">2026.10 · k6 측정</text>
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(40,79)">
+      <rect width="266" height="160" rx="19" fill="#ffffff" stroke="#f0d6e1" stroke-width="2"/>
+      <text x="23" y="39" fill="#815d6c" font-size="20">동시 사용자</text>
+      <text x="23" y="108" fill="#d02f6b" font-size="64" font-weight="800">50</text>
+      <text x="118" y="107" fill="#6c5660" font-size="21">명</text>
+    </g>
+    <g transform="translate(324,79)">
+      <rect width="266" height="160" rx="19" fill="#ffffff" stroke="#f0d6e1" stroke-width="2"/>
+      <text x="23" y="39" fill="#815d6c" font-size="20">처리량</text>
+      <text x="23" y="108" fill="#d02f6b" font-size="64" font-weight="800">578</text>
+      <text x="165" y="107" fill="#6c5660" font-size="21">TPS</text>
+    </g>
+    <g transform="translate(608,79)">
+      <rect width="266" height="160" rx="19" fill="#ffffff" stroke="#f0d6e1" stroke-width="2"/>
+      <text x="23" y="39" fill="#815d6c" font-size="20">응답 시간 p95</text>
+      <text x="23" y="108" fill="#d02f6b" font-size="64" font-weight="800">23</text>
+      <text x="112" y="107" fill="#6c5660" font-size="21">ms</text>
+    </g>
+    <g transform="translate(892,79)">
+      <rect width="266" height="160" rx="19" fill="#ffffff" stroke="#f0d6e1" stroke-width="2"/>
+      <text x="23" y="39" fill="#815d6c" font-size="20">오류율</text>
+      <text x="23" y="108" fill="#2d8b67" font-size="64" font-weight="800">0.0</text>
+      <text x="172" y="107" fill="#6c5660" font-size="21">%</text>
+    </g>
+  </g>
+  <text x="600" y="282" text-anchor="middle" fill="#7b5266" font-family="Arial, sans-serif" font-size="18">약 166만 건의 응모 요청 · 중복 차감 / 음수 잔액 / 마감 후 응모 / Redis-DB 불일치 0건</text>
+</svg>
