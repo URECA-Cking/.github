@@ -35,6 +35,7 @@ body:
       options:
         - 로컬
         - 개발 서버
+        - 운영 서버
     validations:
       required: true
   - type: textarea
