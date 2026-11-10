@@ -98,7 +98,7 @@
 
 ## 주요 기능
 
-<p align="center"><img src="assets/core-features-ui.png" alt="응모권 획득, 이벤트 응모, 당첨 결과 알림 UI" width="43.5%" /><img src="assets/extended-features-ui.png" alt="맞춤 추천, 댓글 필터링, YouTube 구독 인증, AI 퀴즈 UI" width="56%" /></p>
+<table><tr><td><img src="assets/features-ui.png" alt="응모권 획득, 이벤트 응모, 당첨 결과 알림, 맞춤 추천, 댓글 필터링, YouTube 구독 인증, AI 퀴즈 UI" width="1900" /><br />                                                                                                                                                                                                                                                                                                                                                                                                                                                                       </td></tr></table>
 
 | 기능 | 주요 설계 및 구현 |
 |---|---|
