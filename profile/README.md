@@ -10,7 +10,7 @@
 
   <p><a href="https://cking.co.kr"><img alt="서비스 종료" src="https://img.shields.io/badge/SERVICE_ENDED-cking.co.kr-6B7280?style=for-the-badge&logo=googlechrome&logoColor=white" /></a></p>
   <p><a href="https://youtu.be/WEKKLaadHcM"><img alt="서비스 시연 영상" src="https://img.shields.io/badge/DEMO-YouTube-D62D52?style=for-the-badge&logo=youtube&logoColor=white" /></a></p>
-  <p><sub>서비스는 종료되었습니다. 시연은 DEMO 영상에서 볼 수 있습니다.</sub></p>
+  <p>서비스는 종료되었습니다. 시연은 DEMO 영상에서 볼 수 있습니다.</p>
 </div>
 
 ---
@@ -61,7 +61,7 @@
 
 - **관측:** 서버마다 Alloy가 지표·로그를 Prometheus·Loki로 보내고, Grafana·CloudWatch 경보는 Slack과 AI 진단 Lambda로 전달됩니다.
 
-<sub>인프라 코드와 설계: [Cking-Infra](https://github.com/URECA-Cking/Cking-Infra)</sub>
+인프라 코드와 설계: [Cking-Infra](https://github.com/URECA-Cking/Cking-Infra)
 
 <br />
 
@@ -78,7 +78,7 @@
 | **Development / Quality** | ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white) ![Node.js 22](https://img.shields.io/badge/Node.js_22-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![JUnit 6](https://img.shields.io/badge/JUnit_6-25A162?style=flat-square&logo=junit5&logoColor=white) ![Testcontainers](https://img.shields.io/badge/Testcontainers-1783CC?style=flat-square&logo=testcontainers&logoColor=white) ![k6](https://img.shields.io/badge/k6-7D64EE?style=flat-square&logo=k6&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-258A56?style=flat-square&logo=playwright&logoColor=white) |
 | **CI / CD** | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![GHCR](https://img.shields.io/badge/GHCR-262E3A?style=flat-square&logo=github&logoColor=white) ![Dependabot](https://img.shields.io/badge/Dependabot-1F6FEB?style=flat-square&logo=dependabot&logoColor=white) |
 
-<sub>운영 데이터는 RDS MySQL과 ElastiCache(Valkey), 배포는 EC2·ALB/WAF·CloudFront 등을 사용합니다. Swagger UI, S3Mock, Docker Compose 및 Spring Actuator/Micrometer를 개발·운영에 활용합니다.</sub>
+운영 데이터는 RDS MySQL과 ElastiCache(Valkey), 배포는 EC2·ALB/WAF·CloudFront 등을 사용합니다. Swagger UI, S3Mock, Docker Compose 및 Spring Actuator/Micrometer를 개발·운영에 활용합니다.
 
 <br />
 
@@ -112,7 +112,7 @@
 | **Creator Space** | 프로필·도킹·게시물·댓글·일정·미션·이벤트를 크리에이터별 공간에서 통합 운영합니다. |
 | **비⁠정⁠상 행⁠동 탐⁠지** | Redis Lua 기반 최근 행동 집계로 반복 요청·잔액 부족·빠른 적립 후 사용 등 패턴을 탐지하고, MySQL Evidence와 관리자 검토 이력을 관리합니다. |
 
-<sub>관련 문서: [Ticket](https://github.com/URECA-Cking/Cking-BE/blob/develop/docs/domains/ticket/README.md) · [Mission](https://github.com/URECA-Cking/Cking-BE/blob/develop/docs/domains/mission/README.md) · [Stream](https://github.com/URECA-Cking/Cking-BE/blob/develop/docs/domains/stream/README.md) · [Event](https://github.com/URECA-Cking/Cking-BE/blob/develop/docs/domains/event/README.md) · [Snapshot](https://github.com/URECA-Cking/Cking-BE/blob/develop/docs/domains/snapshot/README.md) · [Drawing](https://github.com/URECA-Cking/Cking-BE/blob/develop/docs/domains/drawing/README.md) · [Redraw](https://github.com/URECA-Cking/Cking-BE/blob/develop/docs/domains/redraw/README.md) · [추천](https://github.com/URECA-Cking/Cking-BE/blob/develop/docs/domains/creator/similarity-recommendation.md) · [댓글](https://github.com/URECA-Cking/Cking-BE/blob/develop/docs/domains/post/README.md) · [구독 인증](https://github.com/URECA-Cking/Cking-BE/blob/develop/docs/domains/subscription-verification/README.md) · [AI Quiz](https://github.com/URECA-Cking/Cking-BE/blob/develop/docs/domains/quiz/README.md) · [이상 탐지](https://github.com/URECA-Cking/Cking-BE/blob/develop/docs/domains/abuse-detection/README.md)</sub>
+관련 문서: [Ticket](https://github.com/URECA-Cking/Cking-BE/blob/develop/docs/domains/ticket/README.md) · [Mission](https://github.com/URECA-Cking/Cking-BE/blob/develop/docs/domains/mission/README.md) · [Stream](https://github.com/URECA-Cking/Cking-BE/blob/develop/docs/domains/stream/README.md) · [Event](https://github.com/URECA-Cking/Cking-BE/blob/develop/docs/domains/event/README.md) · [Snapshot](https://github.com/URECA-Cking/Cking-BE/blob/develop/docs/domains/snapshot/README.md) · [Drawing](https://github.com/URECA-Cking/Cking-BE/blob/develop/docs/domains/drawing/README.md) · [Redraw](https://github.com/URECA-Cking/Cking-BE/blob/develop/docs/domains/redraw/README.md) · [추천](https://github.com/URECA-Cking/Cking-BE/blob/develop/docs/domains/creator/similarity-recommendation.md) · [댓글](https://github.com/URECA-Cking/Cking-BE/blob/develop/docs/domains/post/README.md) · [구독 인증](https://github.com/URECA-Cking/Cking-BE/blob/develop/docs/domains/subscription-verification/README.md) · [AI Quiz](https://github.com/URECA-Cking/Cking-BE/blob/develop/docs/domains/quiz/README.md) · [이상 탐지](https://github.com/URECA-Cking/Cking-BE/blob/develop/docs/domains/abuse-detection/README.md)
 
 <br />
 
